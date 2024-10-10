@@ -16,10 +16,8 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Environment :: Console :: Curses",
-    "Intended Audience :: Information Technology",
-    "",
-    "",
-    "",]
+    "Intended Audience :: Information Technology"
+]
 
 [project.urls]
 Homepage = "https://github.com/LucasParsy/haccks"
