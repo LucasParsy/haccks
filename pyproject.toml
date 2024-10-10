@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "haccks"
-version = "1.0"
+version = "1.01"
 authors = [
   { name="Lucas Parsy" },
 ]
