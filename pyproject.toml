@@ -1,0 +1,26 @@
+[build-system]
+requires = ["hatchling", "blessed", "typing"]
+build-backend = "hatchling.build"
+
+[project]
+name = "haccks"
+version = "1.0"
+authors = [
+  { name="Lucas Parsy" },
+]
+description = "Hacker Animation Cool Console Kryptographic Sequencer (haccks)"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console :: Curses",
+    "Intended Audience :: Information Technology",
+    "",
+    "",
+    "",]
+
+[project.urls]
+Homepage = "https://github.com/LucasParsy/haccks"
+Issues = "https://github.com/LucasParsy/haccks/issues"
