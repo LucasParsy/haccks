@@ -11,11 +11,7 @@ authors = [
 description = "Hacker Animation Cool Console Kryptographic Sequencer (haccks)"
 readme = "README.md"
 requires-python = ">=3.8"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
-    "Operating System :: OS Independent"
-]
+classifiers = []
 
 [project.urls]
 Homepage = "https://github.com/LucasParsy/haccks"
