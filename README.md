@@ -1,5 +1,5 @@
 
-![haccks animated logo](gifs/title.gif)
+![haccks animated logo](https://raw.githubusercontent.com/LucasParsy/haccks/refs/heads/master/gifs/title.gif)
 
 # Hacker Animation Cool Console Kryptographic Sequencer (haccks)
 
@@ -25,7 +25,7 @@ for i, c in enumerate(password):
     h.setCharacter(i, c)
     time.sleep(1)
 ```
-![basic example](gifs/basic.gif)
+![basic example](https://raw.githubusercontent.com/LucasParsy/haccks/refs/heads/master/gifs/basic.gif)
 
 ##### change colors and framerate
 ```python
@@ -36,7 +36,7 @@ h = Haccks(24, refreshDelay=1,
 h.setCharacter(0, 'A')
 h.setCharacter(23, 'Z')
 ```
-![custom colors example](gifs/colorful.gif)
+![custom colors example](https://raw.githubusercontent.com/LucasParsy/haccks/refs/heads/master/gifs/colorful.gif)
 
 ##### set a custom alphabet
 ```python
@@ -55,7 +55,7 @@ while True:
         e.removeCharsFromAlphabet(r, lal[r].pop())
         time.sleep(0.001)
 ```
-![custom colors example](gifs/alpha.gif)
+![custom colors example](https://raw.githubusercontent.com/LucasParsy/haccks/refs/heads/master/gifs/alpha.gif)
 
 ##### call a custom method at the animation end
 
@@ -77,7 +77,7 @@ def myCustomEnding(term: Terminal):
 h = Haccks(12, customEndingMethod=myCustomEnding)
 ...
 ```
-![custom colors example](gifs/custom_end.gif)
+![custom colors example](https://raw.githubusercontent.com/LucasParsy/haccks/refs/heads/master/gifs/custom_end.gif)
 
 #### Documentation
 
@@ -95,8 +95,8 @@ h = Haccks(
     refreshDelay: float = 0.01,  # sleep time between each refresh of the effect
 
     # check blessed.readthedocs.io/en/latest/colors.html for available colors
-    primaryColor: str = "green", # color of the found characters. 
-    secondaryColor: str = "normal",
+    primaryColor: str = "green",    # color of the found characters 
+    secondaryColor: str = "normal", # color of all other characters
 
     customEndingMethod: Callable[[blessed.Terminal], None] = None # custom method called at end
 )
