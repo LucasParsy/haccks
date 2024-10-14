@@ -79,6 +79,14 @@ h = Haccks(12, customEndingMethod=myCustomEnding)
 ```
 ![custom colors example](https://raw.githubusercontent.com/LucasParsy/haccks/refs/heads/master/gifs/custom_end.gif)
 
+#### installation
+
+it's on [pypi](https://pypi.org/project/haccks/) , so simple as 
+
+```python
+pip install haccks
+```
+
 #### Documentation
 
 Please tell me if it's not clear <br>(it makes sense in my mind, but that's because i'm a genius :P)
@@ -111,7 +119,7 @@ h.setCharacter(
 )
 
 # remove possible characters from the alphabet of an index
-# ex: you know that the third char of your secret cannot b 'Z': 
+# ex: you know that the third char of your secret cannot be 'Z': 
 #     h.removeCharsFromAlphabet(2, 'Z')
 
 h.removeCharsFromAlphabet(
